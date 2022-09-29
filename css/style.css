@@ -1,0 +1,190 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0
+}
+
+.container{
+    margin: 0 auto;
+    width: 920px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color:rgb(58, 95, 169);
+}
+
+.blue{
+    background-image: url("../img/jumbo.png");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.nav-wrapper{
+    display: flex;
+    padding: 5px 0;
+}
+
+.nav-wrapper>div {
+    flex-basis: 20%;
+}
+
+.nav-wrapper .login-container{
+    text-align: right;
+}
+
+.nav-wrapper .links-container {
+    flex-grow: 1;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links-container ul{
+    list-style: none;    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: .7rem 1rem;
+    display: inline-block;
+}
+
+.links-container ul li {
+    display: inline-block;
+}
+
+.login-container{
+    justify-content: center;
+}
+
+section {
+    padding: 20px 0;
+    
+}
+
+.container-small {
+    width: 700px;
+    min-height: 300px;
+    text-align: center;
+    color: white;
+    
+}
+
+.titolo{
+    padding: 20px 0;
+}
+
+.par{
+    padding-bottom: 20px;
+}
+
+h1{
+    font-size: 35px;
+}
+
+
+.row{
+    display: flex;
+    
+}
+
+img{
+    width: 100%;
+}
+
+.col{
+    min-height: 300px;
+    
+    
+}
+.col-2{
+    width: 20%;
+    
+}
+
+.row-2{
+    display: flex;
+    background-color: lightgray;
+}
+
+.col-3{
+    min-height: 300px;
+    width: 20%;
+}
+
+
+
+.color{
+    background-color: lightgray;
+}
+
+.foot-main{
+    text-align: center;
+    min-height: 500px;
+
+}
+
+
+
+.star{
+    background-image: url("../img/stars.svg");
+    background-position: center;
+    padding: 15px 0;
+    
+}
+
+.colonne{
+    display: flex;
+    padding: 20px 0;
+    color: white;
+}
+
+.posto{
+    color: rgb(114, 135, 195);
+}
+
+.icon{
+    color: white;
+}
+
+footer{
+    background-color: rgb(0, 0, 15);
+}
+
+.cl{
+    width: 40%;
+}
+
+.cll{
+    width: calc(100% / 4);
+    min-height: 300px;
+    
+}
+
+.cll .top{
+    padding-left: 5px;
+}
+
+.foot-wrapper{
+    min-height: 40px;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+hr{
+    color: rgb(114, 135, 195);
+}
+
+
+.gray{
+    background-color: rgb(224, 223, 223);
+}
